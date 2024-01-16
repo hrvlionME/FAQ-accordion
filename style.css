@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+.attribution { 
+    font-size: 11px;
+    bottom: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.background-div {
+    height: 33vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+#title {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 3%;
+    color: hsl(292, 42%, 14%);
+    display: inline;
+}
+
+h2 {
+    max-width: 80%;
+    font-size: 16px;
+    color: hsl(292, 42%, 14%);
+    display: inline;
+    font-weight: 600;
+}
+
+.toggle {
+    scale: 1.2;
+}
+.answer {
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+
+.answer-hidden {
+    display: none;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 400px){
+    #background-mobile {
+        width: 100%;
+        object-fit: cover;
+
+    }
+    #background {
+        display: none;
+    }
+    
+    .container {
+        width: 80%;
+        height: 500%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #fff;
+        padding: 3%;
+        border-radius: 1rem;
+        -moz-box-shadow: 0 0 50px rgba(47, 21, 51, 0.2);
+        -webkit-box-shadow: 0 0 50px rgba(47, 21, 51, 0.2);
+        box-shadow: 0 0 50px rgba(47, 21, 51, 0.2);
+    }
+}
+
+
+@media (min-width: 400px){
+    #background-mobile {
+        display: none;
+    }
+    #background {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container {
+        width: 40%;
+        height: 200%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #fff;
+        padding: 3%;
+        border-radius: 1rem;
+        -moz-box-shadow: 0 0 50px rgba(47, 21, 51, 0.2);
+        -webkit-box-shadow: 0 0 50px rgba(47, 21, 51, 0.2);
+        box-shadow: 0 0 50px rgba(47, 21, 51, 0.2);
+    }
+    
+}
