@@ -86,7 +86,8 @@ h2 {
     
     .container {
         width: 80%;
-        height: 500%;
+        min-height: 100px;
+        overflow: hidden;
         position: absolute;
         top: 50%;
         left: 0;
@@ -113,7 +114,8 @@ h2 {
 
     .container {
         width: 40%;
-        height: 200%;
+        min-height: 100px;
+        overflow: hidden;
         position: absolute;
         top: 50%;
         left: 0;
